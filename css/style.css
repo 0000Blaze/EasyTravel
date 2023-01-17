@@ -335,6 +335,13 @@ a:focus {
 }
 
 /* end price section */
+/*  */
+
+form input {
+  margin: 10px;
+}
+
+/*  */
 /* footer section*/
 .footer_section {
   background-color: #0f2480;

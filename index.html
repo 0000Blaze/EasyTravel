@@ -94,7 +94,14 @@
               </div>
             </div>
             <div class="btn-box">
-              <a href=""> Buy Now </a>
+              <a
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
+                Buy Now
+              </a>
             </div>
           </div>
           <div class="box">
@@ -114,7 +121,14 @@
               </div>
             </div>
             <div class="btn-box">
-              <a href=""> Buy Now </a>
+              <a
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
+                Buy Now
+              </a>
             </div>
           </div>
           <div class="box">
@@ -134,7 +148,14 @@
               </div>
             </div>
             <div class="btn-box">
-              <a href=""> Buy Now </a>
+              <a
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
+                Buy Now
+              </a>
             </div>
           </div>
         </div>
@@ -142,6 +163,49 @@
     </section>
     <!-- end price section -->
 
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Information Form</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="#">
+              Name: <input type="text" name="name" id="name" /> <br />
+              Email:<input type="email" name="email" id="email" /><br />
+              Age :<input type="number" name="age" id="age" /><br />
+              <input type="radio" name="gender" id="male" /> Male
+              <input type="radio" name="gender" id="female" /> Female <br />
+              Plans:<br />
+              <input type="checkbox" name="plan" id="bhk" /> Bhaktapur
+              <input type="checkbox" name="plan" id="pok" /> Pokhara
+              <input type="checkbox" name="plan" id="lmb" /> Lumbini
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- footer section -->
     <section class="container-fluid footer_section">
       <div class="container">
