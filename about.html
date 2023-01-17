@@ -3,8 +3,99 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
     <title>Easy Travel</title>
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+    <!-- fonts style -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
   </head>
-  <body></body>
+  <body>
+    <!-- header section -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <div class="navbar-collapse" id="">
+            <div class="custom_menu-btn">
+              <button onclick="openNav()">
+                <span class="s-1"> </span>
+                <span class="s-2"> </span>
+                <span class="s-3"> </span>
+              </button>
+            </div>
+            <div id="myNav" class="overlay">
+              <div class="overlay-content">
+                <a href="index.html">HOME</a>
+                <a href="about.html" onclick="openNav()">ABOUT</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- about section -->
+    <section class="about_section layout_padding-bottom" id="about">
+      <div class="square-box">
+        <img src="images/square.png" alt="" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="img-box">
+              <img src="images/hero.jpeg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="detail-box">
+              <div class="heading_container">
+                <h2>About Our Travel agency</h2>
+              </div>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Repellendus veritatis magnam magni, alias, soluta vitae
+                consequuntur nostrum quod exercitationem enim ab labore sit
+                aliquam ad quidem, nisi voluptatem debitis fugit? Lorem ipsum
+                dolor sit amet, consectetur adipisicing elit. Nihil cupiditate
+                quam temporibus alias. Sapiente rerum odio fugiat,
+                exercitationem repellat dolor maxime, ab, beatae corporis autem
+                commodi distinctio dolorum expedita nam? vitae consequuntur
+                nostrum quod exercitationem enim ab labore sit aliquam ad
+                quidem, nisi voluptatem debitis fugit? Lorem ipsum dolor sit
+                amet, consectetur adipisicing elit. Nihil cupiditate quam
+                temporibus alias. Sapiente rerum odio fugiat, exercitationem
+                repellat dolor maxime, ab, beatae corporis autem commodi
+                distinctio dolorum expedita nam?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <section class="container-fluid footer_section">
+      <div class="container">
+        <p>
+          &copy; <span id="displayYear"></span> All Rights Reserved 2023.
+          <span id="displayYear"></span> Developed By
+          <a href="https://rohanchhetry.com.np" type="_blank">Rohan Chhetry</a>
+        </p>
+      </div>
+    </section>
+    <!-- end  footer section -->
+
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
 </html>

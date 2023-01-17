@@ -20,5 +20,63 @@
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet" />
   </head>
-  <body></body>
+  <body>
+    <!-- header section -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <div class="navbar-collapse" id="">
+            <div class="custom_menu-btn">
+              <button onclick="openNav()">
+                <span class="s-1"> </span>
+                <span class="s-2"> </span>
+                <span class="s-3"> </span>
+              </button>
+            </div>
+            <div id="myNav" class="overlay">
+              <div class="overlay-content">
+                <a href="index.html">HOME</a>
+                <a href="about.html" onclick="openNav()">ABOUT</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="hero_area">
+      <!-- Title section -->
+      <section class="title_section" id="home">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4 offset-md-1">
+              <div class="detail-box">
+                <h1>
+                  <span>Easy </span> <br />
+                  Travel
+                </h1>
+                <p>Welcome to Nepal's best travelling agency</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end Title section -->
+    </div>
+    <!-- footer section -->
+    <section class="container-fluid footer_section">
+      <div class="container">
+        <p>
+          &copy; <span id="displayYear"></span> All Rights Reserved 2023.
+          <span id="displayYear"></span> Developed By
+          <a href="https://rohanchhetry.com.np" type="_blank">Rohan Chhetry</a>
+        </p>
+      </div>
+    </section>
+    <!-- end  footer section -->
+
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
 </html>
